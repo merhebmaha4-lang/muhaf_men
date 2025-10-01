@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MUHAF for Men – Coming Soon!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Suisse+Works:wght@500&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Suisse Works', serif;
+      color: #f5f5f5;
+      background: linear-gradient(-45deg, #0f0f0f, #1a1a1a, #2c2c2c, #0f0f0f);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      min-height: 100vh;
+    }
+
+    @keyframes gradientBG {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
+    h1 {
+      font-size: 3.5rem;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      color: #d4af37;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    p {
+      font-size: 1.2rem;
+      max-width: 800px;
+      text-align: center;
+      line-height: 1.7;
+      margin-bottom: 2rem;
+      color: #ccc;
+    }
+
+    .button {
+      background-color: #d4af37;
+      color: #0f0f0f;
+      padding: 14px 28px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+      font-size: 1rem;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #bfa233;
+    }
+
+    .about {
+      margin-top: 4rem;
+      max-width: 900px;
+      text-align: center;
+    }
+
+    .about h3 {
+      font-size: 1.6rem;
+      margin-bottom: 1rem;
+      color: #d4af37;
+    }
+
+    .about p {
+      font-size: 1.1rem;
+      color: #bbb;
+      line-height: 1.8;
+      margin-bottom: 1.5rem;
+    }
+
+    footer {
+      margin-top: 4rem;
+      font-size: 0.9rem;
+      color: #666;
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      h1 { font-size: 2.5rem; }
+      h2 { font-size: 1.4rem; }
+      p, .about p { font-size: 1rem; }
+      .button { padding: 12px 20px; font-size: 0.9rem; }
+    }
+  </style>
+</head>
+<body>
+  <h1>MUHAF for Men</h1>
+  <h2>A new chapter begins.. soon!</h2>
+  <p>A gateway to silent elegance.<br>
+     Every thread tells a story, every design carries the weight of dignity.</p>
+  <a href="https://www.instagram.com/muhaf.hum?igsh=bXp2bnM1cWF3eG1k" class="button" target="_blank">Follow the journey →</a>
+
+  <div class="about">
+    <h3>The Essence</h3>
+    <p>
+      MUHAF for Men.. A refined design that balances heritage and modernity,  
+      where each piece reflects a unique legacy in an elegant language,  
+      turning fabric into a statement of distinction.
+    </p>
+    <p dir="rtl" lang="ar">
+      مُهَف للرجال.. تصميم راقٍ يوازن بين الأصالة والحداثة،  
+      كل قطعة تحاكي إرثاً متفرّداً بلغةٍ أنيقة،  
+      حيث يصبح القماش بياناً للتفرد.
+    </p>
+  </div>
+
+  <footer>
+    Crafted in Lebanon. Inspired by the Gulf. © MUHAF 2026
+  </footer>
+</body>
+</html>
